@@ -1,0 +1,82 @@
+nav{
+    width: 100%;
+    height: 50px;
+    box-shadow: 10px 0px 10px rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.right{
+    /* width: 20%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding: 0px 20px;
+}
+.button{
+    margin-left: 20px;
+}
+.menu{
+    margin: 0px 30px;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+    padding: 10px 20px ;
+    font-weight: 600;
+    
+}
+.active{
+    background-color: rgba(202, 162, 240, 0.589);
+    color: blueviolet;
+}
+li:hover{
+    background-color: rgba(202, 162, 240, 0.589);
+}
+.right .btn{
+    height: 70%;
+    margin-left: 20px;
+    /* color: white; */
+    border: 0.5px solid rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.signup{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.login{
+    color: blueviolet;
+}
+.login:hover{
+    background-color: aqua;
+}
+.signup:hover{
+    background-color: rgba(131, 71, 187, 0.767);
+}
+
+.Logo{
+    font-size: 25px;
+    font-weight: 700;
+    background: linear-gradient(rgb(27, 113, 141),rgb(207, 82, 82));
+    background-clip: text;
+
+    color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
